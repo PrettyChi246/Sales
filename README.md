@@ -38,7 +38,8 @@ DIVIDE(
     0
 )
 # DASHBOARD PREVIEW
-[COOKIES SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427551/COOKIES.SALES.DASHBOARD.pdf)
+[SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427769/SALES.DASHBOARD.pdf)
+
 
 
 
