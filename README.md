@@ -23,6 +23,25 @@ The goal of this project is to transform raw sales data into an interactive busi
 [Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
 [Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xlsx)
 
+#DAX MEASURES
+Total Profit =
+SUM(Sales[Profit])
+Total Orders =
+DISTINCTCOUNT(Sales[Order ID])
+Average Purchase =
+DIVIDE(
+    [Total Sales],
+    [Total Orders],
+    0
+)
+# DAX Measures
+
+## 1. Total Sales
+
+```DAX
+Total Sales =
+SUM(Sales[Revenue])
+
 
 ---
 
