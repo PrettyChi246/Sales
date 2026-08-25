@@ -7,7 +7,7 @@ The dashboard analyzes cookie sales performance for 2019 and 2020, providing ins
 
 - Total Sales
 - Total Profit
-- Total O
+- Total Orders
 - Average Purchase
 - Sales by Cookie Type
 - Profit by Cookie Type
@@ -15,7 +15,8 @@ The dashboard analyzes cookie sales performance for 2019 and 2020, providing ins
 - Cookie Sales Performance by City
 - Sales trends over time
 
-The goal of this project is to transform raw sales data into an interactive business intelligence dashboard that can support data-driven decision-making.
+The project demonstrates my ability to transform raw sales data into an interactive business intelligence dashboard that can support data-driven decision-making.
+
 
 #Dataset
 
@@ -58,6 +59,106 @@ DIVIDE(
 - Data Analysis
 
 ---
+# 🍪 Cookie Sales Dashboard 2019–2020
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![DAX](https://img.shields.io/badge/DAX-Analysis-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-Transformation-orange)
+![Excel](https://img.shields.io/badge/Excel-Data%20Source-green?logo=microsoftexcel)
+
+---
+
+
+
+---
+
+## 🎯 Project Objectives
+
+The objectives of this project are to:
+
+- Analyze total sales performance
+- Analyze total profit
+- Monitor total orders
+- Calculate average order value
+- Analyze profit margin
+- Compare cookie types
+- Analyze sales trends over time
+- Analyze revenue by city
+- Compare cookie performance across cities
+- Create an interactive Power BI dashboard
+- Generate useful business insights
+
+---
+
+## 🏢 Business Problem
+
+A business may have a large amount of sales data but still struggle to understand its overall performance.
+
+Raw sales data can make it difficult to quickly answer questions such as:
+
+- How much revenue was generated?
+- How much profit was made?
+- Which cookie performs best?
+- Which city generates the most revenue?
+- How are sales changing over time?
+- Which products need more attention?
+
+This project addresses these questions by transforming raw sales data into an interactive Power BI dashboard.
+
+---
+
+## 💡 Proposed Solution
+
+I developed an interactive dashboard that allows users to explore sales performance through:
+
+- KPI cards
+- Sales trend analysis
+- Product analysis
+- Geographic analysis
+- Revenue analysis
+- Profit analysis
+- Interactive filters
+
+Users can filter the dashboard by:
+
+- Date
+- City
+- Cookie Type
+
+---
+
+# 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel | Data source |
+| Power Query | Data cleaning and transformation |
+| Power BI | Dashboard development |
+| DAX | Calculations and KPIs |
+| GitHub | Portfolio and project documentation |
+
+---
+
+# 📂 Repository Structure
+
+```text
+cookie-sales-dashboard/
+│
+├── README.md
+│
+├── Dashboard/
+│   └── Cookie_Sales_Dashboard.pbix
+│
+├── Data/
+│   └── cookie_sales_data.xlsx
+│
+├── Images/
+│   └── cookie-sales-dashboard.png
+│
+└── Documentation/
+    ├── DAX_Measures.md
+    ├── Data_Cleaning.md
+    └── Business_Insights.md
 
 ## 📁 Repository Structure
 
