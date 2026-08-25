@@ -17,61 +17,6 @@ The dashboard analyzes cookie sales performance for 2019 and 2020, providing ins
 
 The project demonstrates my ability to transform raw sales data into an interactive business intelligence dashboard that can support data-driven decision-making.
 
-
-#Dataset
-
-[Orders.xlsx](https://github.com/user-attachments/files/31427030/Orders.xlsx)
-[Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
-[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xl
-
-# DAX Measures
-
-Total Sales =
-SUM(Sales[Revenue])
-Total Profit =
-SUM(Sales[Profit])
-Total Orders =
-DISTINCTCOUNT(Sales[Order ID])
-Average Purchase =
-DIVIDE(
-    [Total Sales],
-    [Total Orders],
-    0
-)
-# DASHBOARD PREVIEW
-[SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427769/SALES.DASHBOARD.pdf)
-
-
-
-
-
-
----
-
-## 🛠️ Tools Used
-
-- Microsoft Power BI
-- Power Query
-- DAX
-- Microsoft Excel
-- Data Visualization
-- Data Cleaning
-- Data Analysis
-
----
-# 🍪 Cookie Sales Dashboard 2019–2020
-
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
-![DAX](https://img.shields.io/badge/DAX-Analysis-blue)
-![Power Query](https://img.shields.io/badge/Power%20Query-Transformation-orange)
-![Excel](https://img.shields.io/badge/Excel-Data%20Source-green?logo=microsoftexcel)
-
----
-
-
-
----
-
 ## 🎯 Project Objectives
 
 The objectives of this project are to:
@@ -123,11 +68,61 @@ Users can filter the dashboard by:
 
 - Date
 - City
-- Cookie Type
+- Cookie Type.
 
 ---
 
-# 🛠️ Tools Used
+
+#### Dataset
+
+[Orders.xlsx](https://github.com/user-attachments/files/31427030/Orders.xlsx)
+[Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
+[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xl
+
+### DATA ANALYTICS WORKFLOW
+Raw Data
+   ↓
+Data Import
+   ↓
+Data Inspection
+   ↓
+Data Cleaning
+   ↓
+Data Transformation
+   ↓
+Data Modeling
+   ↓
+DAX Measures
+   ↓
+Dashboard
+   ↓
+Business Insights
+
+# DAX Measures
+
+Total Sales =
+SUM(Sales[Revenue])
+Total Profit =
+SUM(Sales[Profit])
+Total Orders =
+DISTINCTCOUNT(Sales[Order ID])
+Average Purchase =
+DIVIDE(
+    [Total Sales],
+    [Total Orders],
+    0
+)
+# DASHBOARD PREVIEW
+[SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427769/SALES.DASHBOARD.pdf)
+
+
+
+
+
+
+---
+
+## 🛠️ Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -138,6 +133,23 @@ Users can filter the dashboard by:
 | GitHub | Portfolio and project documentation |
 
 ---
+
+
+
+
+# 🍪 Cookie Sales Dashboard 2019–2020
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![DAX](https://img.shields.io/badge/DAX-Analysis-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-Transformation-orange)
+![Excel](https://img.shields.io/badge/Excel-Data%20Source-green?logo=microsoftexcel)
+
+---
+
+
+
+---
+
 
 # 📂 Repository Structure
 
