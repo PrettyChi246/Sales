@@ -1,4 +1,5 @@
 # 🍪 Dinma's Cookie Sales Dashboard 2019/2020
+
 ## 📊 Project Overview
 
 This project is an interactive **Cookie Sales Dashboard** developed using Microsoft Power BI.
@@ -79,7 +80,7 @@ Users can filter the dashboard by:
 [Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
 [Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xl
 
-### DATA ANALYTICS WORKFLOW
+### 🔄 DATA ANALYTICS WORKFLOW
 Raw Data
    ↓
 Data Import
@@ -98,6 +99,106 @@ Dashboard
    ↓
 Business Insights
 
+
+# 🔄 Data Cleaning and Transformation
+
+## Overview
+
+The raw cookie sales dataset was prepared using Power Query before being used for dashboard development.
+
+The objective of the data preparation process was to ensure that the dataset was clean, consistent, and suitable for analysis.
+
+---
+
+# Step 1 — Import the Dataset
+
+The raw sales data was imported into Microsoft Power BI.
+
+---
+
+# Step 2 — Inspect the Dataset
+
+The dataset was reviewed to identify:
+
+- Column names
+- Data types
+- Missing values
+- Duplicate records
+- Incorrect values
+- Inconsistent text
+- Unnecessary columns
+
+---
+
+# Step 3 — Remove Unnecessary Columns
+
+Columns that were not required for the analysis were removed.
+
+This helps simplify the data model and improve dashboard performance.
+
+---
+
+# Step 4 — Handle Missing Values
+
+Missing values were reviewed and handled according to the requirements of the analysis.
+
+---
+
+# Step 5 — Correct Data Types
+
+Appropriate data types were assigned to the columns.
+
+Examples:
+
+| Column | Data Type |
+|---|---|
+| Date | Date |
+| Revenue | Decimal Number |
+| Profit | Decimal Number |
+| Quantity | Whole Number |
+| Order ID | Text |
+| City | Text |
+| Cookie Type | Text |
+
+---
+
+# Step 6 — Clean Text Fields
+
+Text fields were reviewed for:
+
+- Extra spaces
+- Inconsistent capitalization
+- Spelling inconsistencies
+- Duplicate categories
+
+---
+
+# Step 7 — Validate the Data
+
+The cleaned dataset was checked to ensure that:
+
+- Revenue values were valid
+- Profit values were valid
+- Dates were correctly formatted
+- Cities were correctly categorized
+- Cookie types were correctly categorized
+- Order IDs were usable for order calculations
+
+---
+
+# Step 8 — Load Data Into Power BI
+
+After transformation, the cleaned dataset was loaded into Power BI for:
+
+- Data modeling
+- DAX calculations
+- Visualization
+- Dashboard development
+
+---
+
+
+
 # DAX Measures
 
 Total Sales =
@@ -112,15 +213,12 @@ DIVIDE(
     [Total Orders],
     0
 )
-# DASHBOARD PREVIEW
-[SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427769/SALES.DASHBOARD.pdf)
-
-
-
-
-
-
----
+Profit Margin =
+DIVIDE(
+    [Total Profit],
+    [Total Sales],
+    0
+)
 
 ## 🛠️ Tools Used
 
@@ -134,21 +232,16 @@ DIVIDE(
 
 ---
 
-
-
-
-# 🍪 Cookie Sales Dashboard 2019–2020
-
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
-![DAX](https://img.shields.io/badge/DAX-Analysis-blue)
-![Power Query](https://img.shields.io/badge/Power%20Query-Transformation-orange)
-![Excel](https://img.shields.io/badge/Excel-Data%20Source-green?logo=microsoftexcel)
-
----
-
+# DASHBOARD PREVIEW
+[SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427769/SALES.DASHBOARD.pdf)
 
 
 ---
+
+
+
+
+
 
 
 # 📂 Repository Structure
@@ -172,21 +265,3 @@ cookie-sales-dashboard/
     ├── Data_Cleaning.md
     └── Business_Insights.md
 
-## 📁 Repository Structure
-
-```text
-cookie-sales-dashboard/
-│
-├── README.md
-│
-├── Dashboard/
-│   └── Cookie_Sales_Dashboard.pbix
-│
-├── Data/
-│   └── cookie_sales_data.xlsx
-│
-├── Images/
-│   └── cookie-sales-dashboard.png
-│
-└── Documentation/
-    └── DAX_Measures.md
