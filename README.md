@@ -21,10 +21,16 @@ The goal of this project is to transform raw sales data into an interactive busi
 
 [Orders.xlsx](https://github.com/user-attachments/files/31427030/Orders.xlsx)
 [Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
-[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xlsx)
+[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xl
 
-#DAX MEASURES
-Total Profit =
+# DAX Measures
+
+## 1. Total Sales
+
+```DAX
+Total Sales =
+SUM(Sales[Revenue])
+## 2. Total Profit =
 SUM(Sales[Profit])
 Total Orders =
 DISTINCTCOUNT(Sales[Order ID])
@@ -34,13 +40,6 @@ DIVIDE(
     [Total Orders],
     0
 )
-# DAX Measures
-
-## 1. Total Sales
-
-```DAX
-Total Sales =
-SUM(Sales[Revenue])
 
 
 ---
