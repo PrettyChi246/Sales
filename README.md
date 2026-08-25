@@ -37,6 +37,11 @@ DIVIDE(
     [Total Orders],
     0
 )
+# DASHBOARD PREVIEW
+[COOKIES SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427551/COOKIES.SALES.DASHBOARD.pdf)
+
+
+
 
 
 ---
