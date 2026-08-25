@@ -25,12 +25,9 @@ The goal of this project is to transform raw sales data into an interactive busi
 
 # DAX Measures
 
-## 1. Total Sales
-
-```DAX
 Total Sales =
 SUM(Sales[Revenue])
-## 2. Total Profit =
+Total Profit =
 SUM(Sales[Profit])
 Total Orders =
 DISTINCTCOUNT(Sales[Order ID])
