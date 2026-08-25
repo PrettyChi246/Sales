@@ -42,12 +42,33 @@ A business may have a large amount of sales data but still struggle to understan
 
 Raw sales data can make it difficult to quickly answer questions such as:
 
-- How much revenue was generated?
-- How much profit was made?
-- Which cookie performs best?
+### Product Analysis
+
+- Which cookie type generates the highest revenue?
+- Which cookie generates the highest profit?
+- Which products have lower sales?
+
+### Geographic Analysis
+
 - Which city generates the most revenue?
+- Which city generates the least revenue?
+- How does product performance differ by city?
+
+### Time Analysis
+
 - How are sales changing over time?
-- Which products need more attention?
+- Which months have the highest sales?
+- Which periods have lower sales?
+- How does one year compare with another?
+
+### Financial Analysis
+
+- What is total revenue?
+- What is total profit?
+- What is the profit margin?
+- What is the average order value?
+
+---
 
 This project addresses these questions by transforming raw sales data into an interactive Power BI dashboard.
 
@@ -237,31 +258,132 @@ DIVIDE(
 
 
 ---
+### Key Features
+
+- 💰 **Total Sales** – $4.69M
+- 💵 **Total Profit** – $2.72M
+- 🧾 **Total Orders** – 700
+- 🛒 **Average Purchase** – $6.7K
+- 🍪 **Cookie Type Analysis**
+- 📈 **Sales Trend Analysis**
+- 🏙️ **Revenue by City**
+- 🗺️ **Geographic Analysis**
+
+### Interactive Filters
+
+Users can filter the dashboard by:
+
+- 📅 Date
+- 🏙️ City
+- 🍪 Cookie Type
+
+### Visualizations
+
+- KPI Cards
+- Bar Charts
+- Line Charts
+- Map
+- Interactive Slicers
 
 
+## 🔍 Key Findings
 
+### 1. Product Performance
+- The dashboard shows differences in sales and profitability across cookie types.
+- **Best-performing cookie:** `CHOCOLATE COOKIE`
+- **Lowest-performing cookie:** `FORTUNE COOKIE`
 
+### 2. Geographic Performance
+- Sales performance varies across cities.
+- **Highest-performing city:** `GREEN BAY CITY`
+- **Lowest-performing city:** `SEATTLE CITY`
 
+### 3. Sales Trends
+- Sales performance changed throughout 2019–2020.
+- **Highest-performing period:** `2020`
+- **Lowest-performing period:** `2019`
 
+---
 
-# 📂 Repository Structure
+# 💡 Business Recommendations
 
-```text
-cookie-sales-dashboard/
-│
-├── README.md
-│
-├── Dashboard/
-│   └── Cookie_Sales_Dashboard.pbix
-│
-├── Data/
-│   └── cookie_sales_data.xlsx
-│
-├── Images/
-│   └── cookie-sales-dashboard.png
-│
-└── Documentation/
-    ├── DAX_Measures.md
-    ├── Data_Cleaning.md
-    └── Business_Insights.md
+### 1. Focus on High-Performing Products
+Increase marketing and inventory for products generating the highest sales and profit.
+
+### 2. Investigate Low-Performing Products
+Review pricing, customer demand, availability, and marketing strategies for weaker products.
+
+### 3. Prioritize High-Performing Cities
+Allocate more inventory and targeted promotions to cities generating strong revenue.
+
+### 4. Improve Low-Performing Locations
+Investigate the reasons for weaker sales and develop location-specific strategies.
+
+### 5. Use Sales Trends for Planning
+Use historical sales patterns to improve inventory management, promotions, and future sales planning.
+
+### 6. Monitor Profitability
+Track profit alongside revenue to ensure that sales growth translates into sustainable business performance.
+
+---
+
+# 📚 Lessons Learned
+
+Through this project, I learned how to:
+
+- Clean and transform raw data using **Power Query**
+- Build relationships between tables
+- Create calculated measures using **DAX**
+- Design interactive Power BI dashboards
+- Use KPIs to monitor business performance
+- Analyze sales trends and product performance
+- Perform geographic analysis
+- Turn data into actionable business insights
+- Document and present a data analytics project on **GitHub**
+
+---
+
+# ⚠️ Limitations
+
+Although the Cookie Sales Dashboard provides useful insights, there are some limitations to the analysis.
+
+### 1. Limited Time Period
+The analysis covers only **2019–2020**, so it may not reflect more recent sales performance.
+
+### 2. Limited Dataset
+The available dataset contains a limited number of business variables, which restricts the depth of analysis.
+
+### 3. No Customer Demographics
+The dataset does not provide detailed customer information such as age or gender.
+
+### 4. No Marketing Data
+Marketing campaigns, advertising costs, and promotional activities are not included, making it difficult to determine their impact on sales.
+
+### 5. No Forecasting
+The current dashboard focuses mainly on historical performance and does not include predictive sales forecasting.
+
+### 6. Data Quality
+The accuracy of the analysis depends on the quality and completeness of the original dataset.
+
+---
+
+## 🔮 Future Improvements
+
+Future versions of the dashboard could include:
+
+- More recent sales data
+- Customer segmentation
+- Marketing and campaign data
+- Sales forecasting
+- Profit forecasting
+- Year-over-Year growth analysis
+- Customer behavior analysis
+- Automated data refresh
+
+---
+
+## 🎯 Conclusion
+
+These limitations provide opportunities to expand the analysis and make the dashboard more comprehensive for future business decision-making.
+
 
