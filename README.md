@@ -7,7 +7,7 @@ The dashboard analyzes cookie sales performance for 2019 and 2020, providing ins
 
 - Total Sales
 - Total Profit
-- Total Orders
+- Total O
 - Average Purchase
 - Sales by Cookie Type
 - Profit by Cookie Type
@@ -16,6 +16,13 @@ The dashboard analyzes cookie sales performance for 2019 and 2020, providing ins
 - Sales trends over time
 
 The goal of this project is to transform raw sales data into an interactive business intelligence dashboard that can support data-driven decision-making.
+
+#Dataset
+
+[Orders.xlsx](https://github.com/user-attachments/files/31427030/Orders.xlsx)
+[Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
+[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xlsx)
+
 
 ---
 
