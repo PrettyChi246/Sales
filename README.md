@@ -99,7 +99,8 @@ Users can filter the dashboard by:
 
 [Orders.xlsx](https://github.com/user-attachments/files/31427030/Orders.xlsx)
 [Customers (1).xlsx](https://github.com/user-attachments/files/31427003/Customers.1.xlsx)
-[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31426980/Cookie.Types.1.xl
+[Cookie Types (1).xlsx](https://github.com/user-attachments/files/31521974/Cookie.Types.1.xlsx)
+
 
 ### 🔄 DATA ANALYTICS WORKFLOW
 Raw Data
