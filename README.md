@@ -1,5 +1,8 @@
 # 🍪 Dinma's Cookie Sales Dashboard 2019/2020
 
+# DASHBOARD PREVIEW
+[SALES DASHBOARD.pdf](https://github.com/user-attachments/files/31427769/SALES.DASHBOARD.pdf)
+
 ## 📊 Project Overview
 
 This project is an interactive **Cookie Sales Dashboard** developed using Microsoft Power BI.
