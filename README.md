@@ -38,6 +38,15 @@ The objectives of this project are to:
 - Generate useful business insights
 
 ---
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel | Data source |
+| Power Query | Data cleaning and transformation |
+| Power BI | Dashboard development |
+| DAX | Calculations and KPIs |
+| GitHub | Portfolio and project documentation |
 
 ## 🏢 Business Problem
 
@@ -390,4 +399,10 @@ Future versions of the dashboard could include:
 
 These limitations provide opportunities to expand the analysis and make the dashboard more comprehensive for future business decision-making.
 
+## 👩‍💻 Author
 
+**Chidinma**
+
+Medical Laboratory Scientist | Data Analyst
+
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/chidinma-chiidi-obiesi-b50171368/)
