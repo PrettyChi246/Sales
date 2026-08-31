@@ -405,4 +405,4 @@ These limitations provide opportunities to expand the analysis and make the dash
 
 Medical Laboratory Scientist | Data Analyst
 
-🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/chidinma-chiidi-obiesi-b50171368/)
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/chidinma-chidi-obiesi-b50171368)
